@@ -1,0 +1,25 @@
+
+
+
+
+Pinmapping:
+
+Panel	- Controller
+
+C0 	- PB3
+C1 	- PB4
+C2 	- PB5
+C3 	- PC0
+C4 	- PC1
+C5 	- PC2
+C6 	- PC3
+C7 	- PC4
+
+R0 	- PB2
+R1 	- PB1
+R2 	- PB0
+R3 	- PD7
+R4 	- PD6
+R5 	- PD5
+R6 	- PB7
+R7 	- PB6

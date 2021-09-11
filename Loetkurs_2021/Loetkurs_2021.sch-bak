@@ -1903,14 +1903,12 @@ Text GLabel 9250 2650 0    50   Input ~ 0
 C5
 Text GLabel 9250 2550 0    50   Input ~ 0
 C6
-Text GLabel 9250 2350 0    50   Input ~ 0
+Text GLabel 9250 2450 0    50   Input ~ 0
 C7
 Wire Wire Line
 	9250 1350 9450 1350
 Wire Wire Line
 	9250 1450 9450 1450
-Wire Wire Line
-	9250 2350 9450 2350
 Wire Wire Line
 	9250 2450 9450 2450
 Wire Wire Line

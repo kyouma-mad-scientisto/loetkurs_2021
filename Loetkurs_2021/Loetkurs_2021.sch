@@ -831,17 +831,17 @@ Wire Wire Line
 Wire Wire Line
 	8750 3250 9450 3250
 Text GLabel 9250 3150 0    50   Input ~ 0
-B6
+R7
 Text GLabel 9250 3050 0    50   Input ~ 0
-B7
+R6
 Wire Wire Line
 	9250 3050 9450 3050
 Wire Wire Line
 	9250 3150 9450 3150
 Text GLabel 10250 6100 2    50   Input ~ 0
-B6
+R7
 Text GLabel 9600 5700 2    50   Input ~ 0
-B7
+R6
 Wire Wire Line
 	5700 3300 5850 3300
 Wire Wire Line
@@ -1910,8 +1910,6 @@ Wire Wire Line
 Wire Wire Line
 	9250 1450 9450 1450
 Wire Wire Line
-	9250 2350 9450 2350
-Wire Wire Line
 	9250 2450 9450 2450
 Wire Wire Line
 	9450 2550 9250 2550
@@ -1965,27 +1963,25 @@ F 3 "~" H 8050 1750 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 Text GLabel 8950 5300 2    50   Input ~ 0
-B0
+R5
 Text GLabel 8300 4900 2    50   Input ~ 0
-B1
+R4
 Text GLabel 7650 4500 2    50   Input ~ 0
-B2
+R3
 Text GLabel 9450 1550 0    50   Input ~ 0
-B0
+R5
 Text GLabel 9250 1450 0    50   Input ~ 0
-B1
+R4
 Text GLabel 9250 1350 0    50   Input ~ 0
-B2
-Text GLabel 9450 3550 0    50   Input ~ 0
-B5
+R3
 Wire Wire Line
 	8250 3550 8750 3550
 Text GLabel 5850 3300 2    50   Input ~ 0
-B5
+R0
 Wire Wire Line
 	8250 3450 9450 3450
 Text GLabel 6500 3700 2    50   Input ~ 0
-B4
+R1
 Wire Wire Line
 	8250 3350 8400 3350
 Wire Wire Line
@@ -1994,9 +1990,11 @@ Connection ~ 8400 3350
 Wire Wire Line
 	8400 3350 9450 3350
 Text GLabel 9450 3650 0    50   Input ~ 0
-B4
+R1
 Text GLabel 7000 4100 2    50   Input ~ 0
-B3
+R2
 Text GLabel 9450 3750 0    50   Input ~ 0
-B3
+R2
+Text GLabel 9450 3550 0    50   Input ~ 0
+R0
 $EndSCHEMATC
