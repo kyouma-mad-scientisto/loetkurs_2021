@@ -14,10 +14,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Device:LED D00
+L Device:LED D0
 U 1 1 61397679
 P 1600 3350
-F 0 "D00" H 1593 3567 50  0000 C CNN
+F 0 "D0" H 1593 3567 50  0000 C CNN
 F 1 "LED" H 1593 3476 50  0000 C CNN
 F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1600 3350 50  0001 C CNN
 F 3 "~" H 1600 3350 50  0001 C CNN
@@ -25,7 +25,7 @@ F 3 "~" H 1600 3350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Loetkurs_2021-rescue:AO3400A-Transistor_FET Q1
+L Loetkurs_2021-rescue:AO3400A-Transistor_FET-Loetkurs_2021-rescue Q1
 U 1 1 613D7E24
 P 5500 3300
 F 0 "Q1" V 5749 3300 50  0000 C CNN
@@ -36,7 +36,7 @@ F 3 "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf" H 5500 3300 50  0001 L CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Loetkurs_2021-rescue:AO3400A-Transistor_FET Q2
+L Loetkurs_2021-rescue:AO3400A-Transistor_FET-Loetkurs_2021-rescue Q2
 U 1 1 6140CE4C
 P 6150 3700
 F 0 "Q2" V 6399 3700 50  0000 C CNN
@@ -47,7 +47,7 @@ F 3 "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf" H 6150 3700 50  0001 L CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Loetkurs_2021-rescue:AO3400A-Transistor_FET Q3
+L Loetkurs_2021-rescue:AO3400A-Transistor_FET-Loetkurs_2021-rescue Q3
 U 1 1 61415DEE
 P 6800 4100
 F 0 "Q3" V 7049 4100 50  0000 C CNN
@@ -58,7 +58,7 @@ F 3 "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf" H 6800 4100 50  0001 L CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Loetkurs_2021-rescue:AO3400A-Transistor_FET Q4
+L Loetkurs_2021-rescue:AO3400A-Transistor_FET-Loetkurs_2021-rescue Q4
 U 1 1 61415DF4
 P 7450 4500
 F 0 "Q4" V 7699 4500 50  0000 C CNN
@@ -69,7 +69,7 @@ F 3 "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf" H 7450 4500 50  0001 L CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Loetkurs_2021-rescue:AO3400A-Transistor_FET Q5
+L Loetkurs_2021-rescue:AO3400A-Transistor_FET-Loetkurs_2021-rescue Q5
 U 1 1 614272A2
 P 8100 4900
 F 0 "Q5" V 8349 4900 50  0000 C CNN
@@ -80,7 +80,7 @@ F 3 "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf" H 8100 4900 50  0001 L CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Loetkurs_2021-rescue:AO3400A-Transistor_FET Q6
+L Loetkurs_2021-rescue:AO3400A-Transistor_FET-Loetkurs_2021-rescue Q6
 U 1 1 614272A8
 P 8750 5300
 F 0 "Q6" V 8999 5300 50  0000 C CNN
@@ -91,7 +91,7 @@ F 3 "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf" H 8750 5300 50  0001 L CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Loetkurs_2021-rescue:AO3400A-Transistor_FET Q7
+L Loetkurs_2021-rescue:AO3400A-Transistor_FET-Loetkurs_2021-rescue Q7
 U 1 1 614272AE
 P 9400 5700
 F 0 "Q7" V 9649 5700 50  0000 C CNN
@@ -102,7 +102,7 @@ F 3 "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf" H 9400 5700 50  0001 L CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Loetkurs_2021-rescue:AO3400A-Transistor_FET Q8
+L Loetkurs_2021-rescue:AO3400A-Transistor_FET-Loetkurs_2021-rescue Q8
 U 1 1 614272B4
 P 10050 6100
 F 0 "Q8" V 10299 6100 50  0000 C CNN
@@ -657,7 +657,7 @@ $EndComp
 Text Notes 7250 2650 0    50   ~ 0
 DTR\nTX\nRX\nVcc\nGND
 $Comp
-L Loetkurs_2021-rescue:USB_B_Mini-Connector J3
+L Loetkurs_2021-rescue:USB_B_Mini-Connector-Loetkurs_2021-rescue J3
 U 1 1 6188EA8C
 P 10350 5050
 F 0 "J3" H 10120 5039 50  0000 R CNN
@@ -1032,10 +1032,10 @@ Wire Wire Line
 Wire Wire Line
 	1750 3350 1750 3750
 $Comp
-L Device:LED D01
+L Device:LED D1
 U 1 1 615BACE4
 P 2050 3350
-F 0 "D01" H 2043 3567 50  0000 C CNN
+F 0 "D1" H 2043 3567 50  0000 C CNN
 F 1 "LED" H 2043 3476 50  0000 C CNN
 F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2050 3350 50  0001 C CNN
 F 3 "~" H 2050 3350 50  0001 C CNN
@@ -1043,10 +1043,10 @@ F 3 "~" H 2050 3350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:LED D02
+L Device:LED D2
 U 1 1 615CCE23
 P 2500 3350
-F 0 "D02" H 2493 3567 50  0000 C CNN
+F 0 "D2" H 2493 3567 50  0000 C CNN
 F 1 "LED" H 2493 3476 50  0000 C CNN
 F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2500 3350 50  0001 C CNN
 F 3 "~" H 2500 3350 50  0001 C CNN
@@ -1054,10 +1054,10 @@ F 3 "~" H 2500 3350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:LED D03
+L Device:LED D3
 U 1 1 615DF0AB
 P 2950 3350
-F 0 "D03" H 2943 3567 50  0000 C CNN
+F 0 "D3" H 2943 3567 50  0000 C CNN
 F 1 "LED" H 2943 3476 50  0000 C CNN
 F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2950 3350 50  0001 C CNN
 F 3 "~" H 2950 3350 50  0001 C CNN
@@ -1065,10 +1065,10 @@ F 3 "~" H 2950 3350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:LED D04
+L Device:LED D4
 U 1 1 615F13B5
 P 3400 3350
-F 0 "D04" H 3393 3567 50  0000 C CNN
+F 0 "D4" H 3393 3567 50  0000 C CNN
 F 1 "LED" H 3393 3476 50  0000 C CNN
 F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3400 3350 50  0001 C CNN
 F 3 "~" H 3400 3350 50  0001 C CNN
@@ -1076,10 +1076,10 @@ F 3 "~" H 3400 3350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:LED D05
+L Device:LED D5
 U 1 1 6160357B
 P 3850 3350
-F 0 "D05" H 3843 3567 50  0000 C CNN
+F 0 "D5" H 3843 3567 50  0000 C CNN
 F 1 "LED" H 3843 3476 50  0000 C CNN
 F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3850 3350 50  0001 C CNN
 F 3 "~" H 3850 3350 50  0001 C CNN
@@ -1087,10 +1087,10 @@ F 3 "~" H 3850 3350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:LED D06
+L Device:LED D6
 U 1 1 6161575A
 P 4300 3350
-F 0 "D06" H 4293 3567 50  0000 C CNN
+F 0 "D6" H 4293 3567 50  0000 C CNN
 F 1 "LED" H 4293 3476 50  0000 C CNN
 F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4300 3350 50  0001 C CNN
 F 3 "~" H 4300 3350 50  0001 C CNN
@@ -1098,10 +1098,10 @@ F 3 "~" H 4300 3350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:LED D07
+L Device:LED D7
 U 1 1 616278B1
 P 4750 3350
-F 0 "D07" H 4743 3567 50  0000 C CNN
+F 0 "D7" H 4743 3567 50  0000 C CNN
 F 1 "LED" H 4743 3476 50  0000 C CNN
 F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4750 3350 50  0001 C CNN
 F 3 "~" H 4750 3350 50  0001 C CNN
@@ -1948,10 +1948,10 @@ Wire Wire Line
 Wire Wire Line
 	1750 2500 1750 2750
 $Comp
-L Device:D D65
+L Device:D D88
 U 1 1 6175A837
 P 8050 1750
-F 0 "D65" H 8050 1967 50  0000 C CNN
+F 0 "D88" H 8050 1967 50  0000 C CNN
 F 1 "D" H 8050 1876 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 8050 1750 50  0001 C CNN
 F 3 "~" H 8050 1750 50  0001 C CNN
