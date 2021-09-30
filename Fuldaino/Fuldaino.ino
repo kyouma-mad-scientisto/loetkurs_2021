@@ -4,12 +4,17 @@
  * 8x8 LED Matrix
  * Atmega328p mit internem 8MHz Takt
  * 
+ * benoetigt "Arduino on a Breadboard" Library
+ * 
+ * 
  * 
  */
 
 
 void setup() {
-  // put your setup code here, to run once:
+  initScanning() {
+    
+  }
 
 }
 

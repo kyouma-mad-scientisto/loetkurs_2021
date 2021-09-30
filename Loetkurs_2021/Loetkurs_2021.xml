@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/media/yves/SSD/VM_Gemeinsam/Entwicklung/Projektdaten_sortiert/eigenes/Layouts + Code/Loetkurs_2021/loetkurs_2021/Loetkurs_2021/Loetkurs_2021.sch</source>
-    <date>So 12 Sep 2021 17:43:25 CEST</date>
+    <date>Do 30 Sep 2021 16:11:41 CEST</date>
     <tool>Eeschema 5.1.7-a382d34a8~88~ubuntu18.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -19,7 +19,7 @@
     </sheet>
   </design>
   <components>
-    <comp ref="D1">
+    <comp ref="D0">
       <value>LED</value>
       <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
@@ -31,7 +31,7 @@
       <value>AO3400A</value>
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <datasheet>http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf</datasheet>
-      <libsource lib="Transistor_FET" part="AO3400A" description="30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"/>
+      <libsource lib="Loetkurs_2021-rescue" part="AO3400A-Transistor_FET-Loetkurs_2021-rescue" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>613D7E24</tstamp>
     </comp>
@@ -39,7 +39,7 @@
       <value>AO3400A</value>
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <datasheet>http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf</datasheet>
-      <libsource lib="Transistor_FET" part="AO3400A" description="30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"/>
+      <libsource lib="Loetkurs_2021-rescue" part="AO3400A-Transistor_FET-Loetkurs_2021-rescue" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>6140CE4C</tstamp>
     </comp>
@@ -47,7 +47,7 @@
       <value>AO3400A</value>
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <datasheet>http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf</datasheet>
-      <libsource lib="Transistor_FET" part="AO3400A" description="30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"/>
+      <libsource lib="Loetkurs_2021-rescue" part="AO3400A-Transistor_FET-Loetkurs_2021-rescue" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>61415DEE</tstamp>
     </comp>
@@ -55,7 +55,7 @@
       <value>AO3400A</value>
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <datasheet>http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf</datasheet>
-      <libsource lib="Transistor_FET" part="AO3400A" description="30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"/>
+      <libsource lib="Loetkurs_2021-rescue" part="AO3400A-Transistor_FET-Loetkurs_2021-rescue" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>61415DF4</tstamp>
     </comp>
@@ -63,7 +63,7 @@
       <value>AO3400A</value>
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <datasheet>http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf</datasheet>
-      <libsource lib="Transistor_FET" part="AO3400A" description="30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"/>
+      <libsource lib="Loetkurs_2021-rescue" part="AO3400A-Transistor_FET-Loetkurs_2021-rescue" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>614272A2</tstamp>
     </comp>
@@ -71,7 +71,7 @@
       <value>AO3400A</value>
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <datasheet>http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf</datasheet>
-      <libsource lib="Transistor_FET" part="AO3400A" description="30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"/>
+      <libsource lib="Loetkurs_2021-rescue" part="AO3400A-Transistor_FET-Loetkurs_2021-rescue" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>614272A8</tstamp>
     </comp>
@@ -79,7 +79,7 @@
       <value>AO3400A</value>
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <datasheet>http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf</datasheet>
-      <libsource lib="Transistor_FET" part="AO3400A" description="30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"/>
+      <libsource lib="Loetkurs_2021-rescue" part="AO3400A-Transistor_FET-Loetkurs_2021-rescue" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>614272AE</tstamp>
     </comp>
@@ -87,7 +87,7 @@
       <value>AO3400A</value>
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <datasheet>http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf</datasheet>
-      <libsource lib="Transistor_FET" part="AO3400A" description="30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"/>
+      <libsource lib="Loetkurs_2021-rescue" part="AO3400A-Transistor_FET-Loetkurs_2021-rescue" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>614272B4</tstamp>
     </comp>
@@ -167,7 +167,7 @@
       <value>USB_B_Mini</value>
       <footprint>Connector_USB:USB_Mini-B_Wuerth_65100516121_Horizontal</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Connector" part="USB_B_Mini" description="USB Mini Type B connector"/>
+      <libsource lib="Loetkurs_2021-rescue" part="USB_B_Mini-Connector-Loetkurs_2021-rescue" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>6188EA8C</tstamp>
     </comp>
@@ -227,7 +227,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>61529176</tstamp>
     </comp>
-    <comp ref="D9">
+    <comp ref="D1">
       <value>LED</value>
       <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
@@ -235,7 +235,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>615BACE4</tstamp>
     </comp>
-    <comp ref="D17">
+    <comp ref="D2">
       <value>LED</value>
       <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
@@ -243,7 +243,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>615CCE23</tstamp>
     </comp>
-    <comp ref="D25">
+    <comp ref="D3">
       <value>LED</value>
       <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
@@ -251,7 +251,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>615DF0AB</tstamp>
     </comp>
-    <comp ref="D33">
+    <comp ref="D4">
       <value>LED</value>
       <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
@@ -259,7 +259,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>615F13B5</tstamp>
     </comp>
-    <comp ref="D41">
+    <comp ref="D5">
       <value>LED</value>
       <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
@@ -267,7 +267,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>6160357B</tstamp>
     </comp>
-    <comp ref="D49">
+    <comp ref="D6">
       <value>LED</value>
       <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
@@ -275,7 +275,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>6161575A</tstamp>
     </comp>
-    <comp ref="D57">
+    <comp ref="D7">
       <value>LED</value>
       <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
@@ -283,7 +283,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>616278B1</tstamp>
     </comp>
-    <comp ref="D2">
+    <comp ref="D10">
       <value>LED</value>
       <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
@@ -291,7 +291,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>6163EEE9</tstamp>
     </comp>
-    <comp ref="D10">
+    <comp ref="D11">
       <value>LED</value>
       <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
@@ -299,7 +299,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>6163EEEF</tstamp>
     </comp>
-    <comp ref="D18">
+    <comp ref="D12">
       <value>LED</value>
       <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
@@ -307,7 +307,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>6163EEF5</tstamp>
     </comp>
-    <comp ref="D26">
+    <comp ref="D13">
       <value>LED</value>
       <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
@@ -315,7 +315,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>6163EEFB</tstamp>
     </comp>
-    <comp ref="D34">
+    <comp ref="D14">
       <value>LED</value>
       <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
@@ -323,7 +323,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>6163EF01</tstamp>
     </comp>
-    <comp ref="D42">
+    <comp ref="D15">
       <value>LED</value>
       <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
@@ -331,7 +331,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>6163EF07</tstamp>
     </comp>
-    <comp ref="D50">
+    <comp ref="D16">
       <value>LED</value>
       <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
@@ -339,7 +339,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>6163EF0D</tstamp>
     </comp>
-    <comp ref="D58">
+    <comp ref="D17">
       <value>LED</value>
       <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
@@ -347,7 +347,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>6163EF13</tstamp>
     </comp>
-    <comp ref="D3">
+    <comp ref="D20">
       <value>LED</value>
       <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
@@ -355,7 +355,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>61654875</tstamp>
     </comp>
-    <comp ref="D11">
+    <comp ref="D21">
       <value>LED</value>
       <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
@@ -363,7 +363,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>6165487B</tstamp>
     </comp>
-    <comp ref="D19">
+    <comp ref="D22">
       <value>LED</value>
       <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
@@ -371,7 +371,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>61654881</tstamp>
     </comp>
-    <comp ref="D27">
+    <comp ref="D23">
       <value>LED</value>
       <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
@@ -379,7 +379,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>61654887</tstamp>
     </comp>
-    <comp ref="D35">
+    <comp ref="D24">
       <value>LED</value>
       <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
@@ -387,7 +387,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>6165488D</tstamp>
     </comp>
-    <comp ref="D43">
+    <comp ref="D25">
       <value>LED</value>
       <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
@@ -395,7 +395,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>61654893</tstamp>
     </comp>
-    <comp ref="D51">
+    <comp ref="D26">
       <value>LED</value>
       <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
@@ -403,7 +403,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>61654899</tstamp>
     </comp>
-    <comp ref="D59">
+    <comp ref="D27">
       <value>LED</value>
       <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
@@ -411,7 +411,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>6165489F</tstamp>
     </comp>
-    <comp ref="D4">
+    <comp ref="D30">
       <value>LED</value>
       <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
@@ -419,7 +419,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>61669A6D</tstamp>
     </comp>
-    <comp ref="D12">
+    <comp ref="D31">
       <value>LED</value>
       <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
@@ -427,7 +427,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>61669A73</tstamp>
     </comp>
-    <comp ref="D20">
+    <comp ref="D32">
       <value>LED</value>
       <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
@@ -435,7 +435,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>61669A79</tstamp>
     </comp>
-    <comp ref="D28">
+    <comp ref="D33">
       <value>LED</value>
       <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
@@ -443,7 +443,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>61669A7F</tstamp>
     </comp>
-    <comp ref="D36">
+    <comp ref="D34">
       <value>LED</value>
       <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
@@ -451,7 +451,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>61669A85</tstamp>
     </comp>
-    <comp ref="D44">
+    <comp ref="D35">
       <value>LED</value>
       <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
@@ -459,7 +459,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>61669A8B</tstamp>
     </comp>
-    <comp ref="D52">
+    <comp ref="D36">
       <value>LED</value>
       <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
@@ -467,7 +467,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>61669A91</tstamp>
     </comp>
-    <comp ref="D60">
+    <comp ref="D37">
       <value>LED</value>
       <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
@@ -475,7 +475,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>61669A97</tstamp>
     </comp>
-    <comp ref="D5">
+    <comp ref="D40">
       <value>LED</value>
       <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
@@ -483,7 +483,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>6167E1DD</tstamp>
     </comp>
-    <comp ref="D13">
+    <comp ref="D41">
       <value>LED</value>
       <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
@@ -491,7 +491,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>6167E1E3</tstamp>
     </comp>
-    <comp ref="D21">
+    <comp ref="D42">
       <value>LED</value>
       <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
@@ -499,7 +499,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>6167E1E9</tstamp>
     </comp>
-    <comp ref="D29">
+    <comp ref="D43">
       <value>LED</value>
       <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
@@ -507,7 +507,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>6167E1EF</tstamp>
     </comp>
-    <comp ref="D37">
+    <comp ref="D44">
       <value>LED</value>
       <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
@@ -523,7 +523,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>6167E1FB</tstamp>
     </comp>
-    <comp ref="D53">
+    <comp ref="D46">
       <value>LED</value>
       <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
@@ -531,7 +531,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>6167E201</tstamp>
     </comp>
-    <comp ref="D61">
+    <comp ref="D47">
       <value>LED</value>
       <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
@@ -539,7 +539,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>6167E207</tstamp>
     </comp>
-    <comp ref="D6">
+    <comp ref="D50">
       <value>LED</value>
       <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
@@ -547,7 +547,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>6169246B</tstamp>
     </comp>
-    <comp ref="D14">
+    <comp ref="D51">
       <value>LED</value>
       <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
@@ -555,7 +555,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>61692471</tstamp>
     </comp>
-    <comp ref="D22">
+    <comp ref="D52">
       <value>LED</value>
       <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
@@ -563,7 +563,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>61692477</tstamp>
     </comp>
-    <comp ref="D30">
+    <comp ref="D53">
       <value>LED</value>
       <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
@@ -571,7 +571,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>6169247D</tstamp>
     </comp>
-    <comp ref="D38">
+    <comp ref="D54">
       <value>LED</value>
       <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
@@ -579,7 +579,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>61692483</tstamp>
     </comp>
-    <comp ref="D46">
+    <comp ref="D55">
       <value>LED</value>
       <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
@@ -587,7 +587,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>61692489</tstamp>
     </comp>
-    <comp ref="D54">
+    <comp ref="D56">
       <value>LED</value>
       <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
@@ -595,7 +595,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>6169248F</tstamp>
     </comp>
-    <comp ref="D62">
+    <comp ref="D57">
       <value>LED</value>
       <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
@@ -603,7 +603,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>61692495</tstamp>
     </comp>
-    <comp ref="D7">
+    <comp ref="D60">
       <value>LED</value>
       <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
@@ -611,7 +611,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>616A5D85</tstamp>
     </comp>
-    <comp ref="D15">
+    <comp ref="D61">
       <value>LED</value>
       <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
@@ -619,7 +619,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>616A5D8B</tstamp>
     </comp>
-    <comp ref="D23">
+    <comp ref="D62">
       <value>LED</value>
       <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
@@ -627,7 +627,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>616A5D91</tstamp>
     </comp>
-    <comp ref="D31">
+    <comp ref="D63">
       <value>LED</value>
       <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
@@ -635,7 +635,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>616A5D97</tstamp>
     </comp>
-    <comp ref="D39">
+    <comp ref="D64">
       <value>LED</value>
       <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
@@ -643,7 +643,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>616A5D9D</tstamp>
     </comp>
-    <comp ref="D47">
+    <comp ref="D65">
       <value>LED</value>
       <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
@@ -651,7 +651,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>616A5DA3</tstamp>
     </comp>
-    <comp ref="D55">
+    <comp ref="D66">
       <value>LED</value>
       <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
@@ -659,7 +659,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>616A5DA9</tstamp>
     </comp>
-    <comp ref="D63">
+    <comp ref="D67">
       <value>LED</value>
       <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
@@ -667,7 +667,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>616A5DAF</tstamp>
     </comp>
-    <comp ref="D8">
+    <comp ref="D70">
       <value>LED</value>
       <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
@@ -675,7 +675,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>616B9E37</tstamp>
     </comp>
-    <comp ref="D16">
+    <comp ref="D71">
       <value>LED</value>
       <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
@@ -683,7 +683,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>616B9E3D</tstamp>
     </comp>
-    <comp ref="D24">
+    <comp ref="D72">
       <value>LED</value>
       <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
@@ -691,7 +691,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>616B9E43</tstamp>
     </comp>
-    <comp ref="D32">
+    <comp ref="D73">
       <value>LED</value>
       <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
@@ -699,7 +699,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>616B9E49</tstamp>
     </comp>
-    <comp ref="D40">
+    <comp ref="D74">
       <value>LED</value>
       <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
@@ -707,7 +707,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>616B9E4F</tstamp>
     </comp>
-    <comp ref="D48">
+    <comp ref="D75">
       <value>LED</value>
       <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
@@ -715,7 +715,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>616B9E55</tstamp>
     </comp>
-    <comp ref="D56">
+    <comp ref="D76">
       <value>LED</value>
       <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
@@ -723,7 +723,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>616B9E5B</tstamp>
     </comp>
-    <comp ref="D64">
+    <comp ref="D77">
       <value>LED</value>
       <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
@@ -731,7 +731,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>616B9E61</tstamp>
     </comp>
-    <comp ref="D65">
+    <comp ref="D88">
       <value>D</value>
       <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
       <datasheet>~</datasheet>
@@ -777,28 +777,6 @@
         <pin num="3" name="Pin_3" type="passive"/>
         <pin num="4" name="Pin_4" type="passive"/>
         <pin num="5" name="Pin_5" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="Connector" part="USB_B_Micro">
-      <aliases>
-        <alias>USB_B_Mini</alias>
-      </aliases>
-      <description>USB Micro Type B connector</description>
-      <docs>~</docs>
-      <footprints>
-        <fp>USB*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">J</field>
-        <field name="Value">USB_B_Micro</field>
-      </fields>
-      <pins>
-        <pin num="1" name="VBUS" type="power_out"/>
-        <pin num="2" name="D-" type="BiDi"/>
-        <pin num="3" name="D+" type="BiDi"/>
-        <pin num="4" name="ID" type="passive"/>
-        <pin num="5" name="GND" type="power_out"/>
-        <pin num="6" name="Shield" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="Device" part="C">
@@ -866,6 +844,38 @@
         <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="Loetkurs_2021-rescue" part="AO3400A-Transistor_FET-Loetkurs_2021-rescue">
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">AO3400A-Transistor_FET-Loetkurs_2021-rescue</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Loetkurs_2021-rescue" part="USB_B_Mini-Connector-Loetkurs_2021-rescue">
+      <footprints>
+        <fp>USB*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB_B_Mini-Connector-Loetkurs_2021-rescue</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBUS" type="power_out"/>
+        <pin num="2" name="D-" type="BiDi"/>
+        <pin num="3" name="D+" type="BiDi"/>
+        <pin num="4" name="ID" type="passive"/>
+        <pin num="5" name="GND" type="power_out"/>
+        <pin num="6" name="Shield" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="MCU_Microchip_ATmega" part="ATmega48PV-10AU">
       <aliases>
         <alias>ATmega48P-20AU</alias>
@@ -927,87 +937,6 @@
         <pin num="32" name="PD2" type="BiDi"/>
       </pins>
     </libpart>
-    <libpart lib="Transistor_FET" part="BSS138">
-      <aliases>
-        <alias>2N7002</alias>
-        <alias>2N7002E</alias>
-        <alias>2N7002H</alias>
-        <alias>2N7002K</alias>
-        <alias>BS170F</alias>
-        <alias>BS870</alias>
-        <alias>BSN20</alias>
-        <alias>BSS123</alias>
-        <alias>BSS127S</alias>
-        <alias>DMG2302U</alias>
-        <alias>DMG3402L</alias>
-        <alias>DMG3404L</alias>
-        <alias>DMG3406L</alias>
-        <alias>DMG3414U</alias>
-        <alias>DMG3418L</alias>
-        <alias>DMN10H220L</alias>
-        <alias>DMN10H700S</alias>
-        <alias>DMN13H750S</alias>
-        <alias>DMN2041L</alias>
-        <alias>DMN2050L</alias>
-        <alias>DMN2056U</alias>
-        <alias>DMN2058U</alias>
-        <alias>DMN2075U</alias>
-        <alias>DMN2230U</alias>
-        <alias>DMN24H11DS</alias>
-        <alias>DMN24H3D5L</alias>
-        <alias>DMN3042L</alias>
-        <alias>DMN3051L</alias>
-        <alias>DMN30H4D0L</alias>
-        <alias>DMN3110S</alias>
-        <alias>DMN3150L</alias>
-        <alias>DMN3300U</alias>
-        <alias>DMN3404L</alias>
-        <alias>DMN6075S</alias>
-        <alias>DMN6140L</alias>
-        <alias>DMN67D7L</alias>
-        <alias>DMN67D8L</alias>
-        <alias>MMBF170</alias>
-        <alias>VN10LF</alias>
-        <alias>ZVN3306F</alias>
-        <alias>ZVN3310F</alias>
-        <alias>ZVN3320F</alias>
-        <alias>ZVN4106F</alias>
-        <alias>ZXM61N02F</alias>
-        <alias>ZXM61N03F</alias>
-        <alias>ZXMN10A07F</alias>
-        <alias>ZXMN2A01F</alias>
-        <alias>ZXMN2A14F</alias>
-        <alias>ZXMN2B01F</alias>
-        <alias>ZXMN2B14FH</alias>
-        <alias>ZXMN2F30FH</alias>
-        <alias>ZXMN2F34FH</alias>
-        <alias>ZXMN3A01F</alias>
-        <alias>ZXMN3A14F</alias>
-        <alias>ZXMN3B01F</alias>
-        <alias>ZXMN3B14F</alias>
-        <alias>ZXMN3F30FH</alias>
-        <alias>ZXMN6A07F</alias>
-        <alias>IRLML0030</alias>
-        <alias>IRLML2060</alias>
-        <alias>TSM2302CX</alias>
-        <alias>AO3400A</alias>
-      </aliases>
-      <description>50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23</description>
-      <docs>https://www.onsemi.com/pub/Collateral/BSS138-D.PDF</docs>
-      <footprints>
-        <fp>SOT?23*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">Q</field>
-        <field name="Value">BSS138</field>
-        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
-      </fields>
-      <pins>
-        <pin num="1" name="G" type="input"/>
-        <pin num="2" name="S" type="passive"/>
-        <pin num="3" name="D" type="passive"/>
-      </pins>
-    </libpart>
   </libparts>
   <libraries>
     <library logical="Connector">
@@ -1016,57 +945,57 @@
     <library logical="Device">
       <uri>/usr/share/kicad/library/Device.lib</uri>
     </library>
+    <library logical="Loetkurs_2021-rescue">
+      <uri>/media/yves/SSD/VM_Gemeinsam/Entwicklung/Projektdaten_sortiert/eigenes/Layouts + Code/Loetkurs_2021/loetkurs_2021/Loetkurs_2021/Loetkurs_2021-rescue.lib</uri>
+    </library>
     <library logical="MCU_Microchip_ATmega">
       <uri>/usr/share/kicad/library/MCU_Microchip_ATmega.lib</uri>
     </library>
-    <library logical="Transistor_FET">
-      <uri>/usr/share/kicad/library/Transistor_FET.lib</uri>
-    </library>
   </libraries>
   <nets>
-    <net code="1" name="Net-(D11-Pad1)">
-      <node ref="D3" pin="1"/>
-      <node ref="D11" pin="1"/>
-      <node ref="D19" pin="1"/>
-      <node ref="D35" pin="1"/>
+    <net code="1" name="Net-(D20-Pad1)">
+      <node ref="D20" pin="1"/>
+      <node ref="D21" pin="1"/>
+      <node ref="D22" pin="1"/>
+      <node ref="D24" pin="1"/>
+      <node ref="D23" pin="1"/>
       <node ref="D27" pin="1"/>
-      <node ref="D59" pin="1"/>
-      <node ref="D43" pin="1"/>
+      <node ref="D25" pin="1"/>
       <node ref="Q3" pin="3"/>
-      <node ref="D51" pin="1"/>
+      <node ref="D26" pin="1"/>
     </net>
     <net code="2" name="Net-(D10-Pad1)">
       <node ref="Q2" pin="3"/>
-      <node ref="D18" pin="1"/>
-      <node ref="D26" pin="1"/>
-      <node ref="D10" pin="1"/>
-      <node ref="D34" pin="1"/>
-      <node ref="D42" pin="1"/>
-      <node ref="D2" pin="1"/>
-      <node ref="D50" pin="1"/>
-      <node ref="D58" pin="1"/>
-    </net>
-    <net code="3" name="Net-(D15-Pad1)">
-      <node ref="D55" pin="1"/>
-      <node ref="Q7" pin="3"/>
-      <node ref="D63" pin="1"/>
-      <node ref="D23" pin="1"/>
-      <node ref="D31" pin="1"/>
-      <node ref="D39" pin="1"/>
-      <node ref="D47" pin="1"/>
-      <node ref="D15" pin="1"/>
-      <node ref="D7" pin="1"/>
-    </net>
-    <net code="4" name="Net-(D14-Pad1)">
-      <node ref="D62" pin="1"/>
-      <node ref="D6" pin="1"/>
+      <node ref="D12" pin="1"/>
+      <node ref="D13" pin="1"/>
+      <node ref="D11" pin="1"/>
       <node ref="D14" pin="1"/>
-      <node ref="D54" pin="1"/>
-      <node ref="D46" pin="1"/>
+      <node ref="D15" pin="1"/>
+      <node ref="D10" pin="1"/>
+      <node ref="D16" pin="1"/>
+      <node ref="D17" pin="1"/>
+    </net>
+    <net code="3" name="Net-(D60-Pad1)">
+      <node ref="D66" pin="1"/>
+      <node ref="Q7" pin="3"/>
+      <node ref="D67" pin="1"/>
+      <node ref="D62" pin="1"/>
+      <node ref="D63" pin="1"/>
+      <node ref="D64" pin="1"/>
+      <node ref="D65" pin="1"/>
+      <node ref="D61" pin="1"/>
+      <node ref="D60" pin="1"/>
+    </net>
+    <net code="4" name="Net-(D50-Pad1)">
+      <node ref="D57" pin="1"/>
+      <node ref="D50" pin="1"/>
+      <node ref="D51" pin="1"/>
+      <node ref="D56" pin="1"/>
+      <node ref="D55" pin="1"/>
       <node ref="Q6" pin="3"/>
-      <node ref="D22" pin="1"/>
-      <node ref="D30" pin="1"/>
-      <node ref="D38" pin="1"/>
+      <node ref="D52" pin="1"/>
+      <node ref="D53" pin="1"/>
+      <node ref="D54" pin="1"/>
     </net>
     <net code="5" name="Net-(J1-Pad3)">
       <node ref="J1" pin="3"/>
@@ -1114,7 +1043,7 @@
       <node ref="J1" pin="2"/>
     </net>
     <net code="12" name="+5V">
-      <node ref="D65" pin="1"/>
+      <node ref="D88" pin="1"/>
       <node ref="J1" pin="4"/>
       <node ref="J2" pin="2"/>
       <node ref="J3" pin="1"/>
@@ -1124,92 +1053,92 @@
       <node ref="C2" pin="2"/>
       <node ref="U1" pin="6"/>
     </net>
-    <net code="13" name="Net-(D41-Pad2)">
-      <node ref="D48" pin="2"/>
-      <node ref="D46" pin="2"/>
-      <node ref="D43" pin="2"/>
-      <node ref="D41" pin="2"/>
-      <node ref="D45" pin="2"/>
-      <node ref="D47" pin="2"/>
-      <node ref="D44" pin="2"/>
-      <node ref="R6" pin="2"/>
-      <node ref="D42" pin="2"/>
-    </net>
-    <net code="14" name="Net-(D33-Pad2)">
-      <node ref="R5" pin="2"/>
-      <node ref="D33" pin="2"/>
-      <node ref="D37" pin="2"/>
-      <node ref="D39" pin="2"/>
-      <node ref="D38" pin="2"/>
-      <node ref="D34" pin="2"/>
-      <node ref="D40" pin="2"/>
-      <node ref="D36" pin="2"/>
-      <node ref="D35" pin="2"/>
-    </net>
-    <net code="15" name="Net-(D25-Pad2)">
-      <node ref="R4" pin="2"/>
+    <net code="13" name="Net-(D15-Pad2)">
+      <node ref="D75" pin="2"/>
+      <node ref="D55" pin="2"/>
       <node ref="D25" pin="2"/>
-      <node ref="D29" pin="2"/>
-      <node ref="D31" pin="2"/>
-      <node ref="D30" pin="2"/>
-      <node ref="D26" pin="2"/>
-      <node ref="D28" pin="2"/>
-      <node ref="D27" pin="2"/>
-      <node ref="D32" pin="2"/>
+      <node ref="D5" pin="2"/>
+      <node ref="D45" pin="2"/>
+      <node ref="D65" pin="2"/>
+      <node ref="D35" pin="2"/>
+      <node ref="R6" pin="2"/>
+      <node ref="D15" pin="2"/>
     </net>
-    <net code="16" name="Net-(D17-Pad2)">
+    <net code="14" name="Net-(D14-Pad2)">
+      <node ref="R5" pin="2"/>
+      <node ref="D4" pin="2"/>
+      <node ref="D44" pin="2"/>
+      <node ref="D64" pin="2"/>
+      <node ref="D54" pin="2"/>
+      <node ref="D14" pin="2"/>
+      <node ref="D74" pin="2"/>
+      <node ref="D34" pin="2"/>
       <node ref="D24" pin="2"/>
-      <node ref="D20" pin="2"/>
-      <node ref="D18" pin="2"/>
-      <node ref="D19" pin="2"/>
-      <node ref="D22" pin="2"/>
+    </net>
+    <net code="15" name="Net-(D13-Pad2)">
+      <node ref="R4" pin="2"/>
+      <node ref="D3" pin="2"/>
+      <node ref="D43" pin="2"/>
+      <node ref="D63" pin="2"/>
+      <node ref="D53" pin="2"/>
+      <node ref="D13" pin="2"/>
+      <node ref="D33" pin="2"/>
       <node ref="D23" pin="2"/>
-      <node ref="D21" pin="2"/>
-      <node ref="D17" pin="2"/>
+      <node ref="D73" pin="2"/>
+    </net>
+    <net code="16" name="Net-(D12-Pad2)">
+      <node ref="D72" pin="2"/>
+      <node ref="D32" pin="2"/>
+      <node ref="D12" pin="2"/>
+      <node ref="D22" pin="2"/>
+      <node ref="D52" pin="2"/>
+      <node ref="D62" pin="2"/>
+      <node ref="D42" pin="2"/>
+      <node ref="D2" pin="2"/>
       <node ref="R3" pin="2"/>
     </net>
-    <net code="17" name="Net-(D10-Pad2)">
-      <node ref="D9" pin="2"/>
-      <node ref="D16" pin="2"/>
-      <node ref="D12" pin="2"/>
+    <net code="17" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2"/>
+      <node ref="D71" pin="2"/>
+      <node ref="D31" pin="2"/>
       <node ref="R2" pin="2"/>
-      <node ref="D14" pin="2"/>
-      <node ref="D11" pin="2"/>
-      <node ref="D15" pin="2"/>
-      <node ref="D10" pin="2"/>
-      <node ref="D13" pin="2"/>
-    </net>
-    <net code="18" name="Net-(D1-Pad1)">
-      <node ref="D17" pin="1"/>
-      <node ref="D9" pin="1"/>
-      <node ref="D57" pin="1"/>
-      <node ref="D49" pin="1"/>
-      <node ref="D41" pin="1"/>
-      <node ref="D33" pin="1"/>
-      <node ref="D25" pin="1"/>
-      <node ref="Q1" pin="3"/>
-      <node ref="D1" pin="1"/>
-    </net>
-    <net code="19" name="Net-(D49-Pad2)">
-      <node ref="D49" pin="2"/>
       <node ref="D51" pin="2"/>
-      <node ref="D55" pin="2"/>
-      <node ref="D54" pin="2"/>
-      <node ref="D50" pin="2"/>
-      <node ref="D52" pin="2"/>
-      <node ref="D56" pin="2"/>
-      <node ref="R7" pin="2"/>
-      <node ref="D53" pin="2"/>
-    </net>
-    <net code="20" name="Net-(D57-Pad2)">
-      <node ref="D63" pin="2"/>
-      <node ref="D64" pin="2"/>
-      <node ref="D59" pin="2"/>
-      <node ref="D58" pin="2"/>
-      <node ref="D62" pin="2"/>
-      <node ref="D60" pin="2"/>
-      <node ref="D57" pin="2"/>
+      <node ref="D21" pin="2"/>
       <node ref="D61" pin="2"/>
+      <node ref="D11" pin="2"/>
+      <node ref="D41" pin="2"/>
+    </net>
+    <net code="18" name="Net-(D0-Pad1)">
+      <node ref="D2" pin="1"/>
+      <node ref="D1" pin="1"/>
+      <node ref="D7" pin="1"/>
+      <node ref="D6" pin="1"/>
+      <node ref="D5" pin="1"/>
+      <node ref="D4" pin="1"/>
+      <node ref="D3" pin="1"/>
+      <node ref="Q1" pin="3"/>
+      <node ref="D0" pin="1"/>
+    </net>
+    <net code="19" name="Net-(D16-Pad2)">
+      <node ref="D6" pin="2"/>
+      <node ref="D26" pin="2"/>
+      <node ref="D66" pin="2"/>
+      <node ref="D56" pin="2"/>
+      <node ref="D16" pin="2"/>
+      <node ref="D36" pin="2"/>
+      <node ref="D76" pin="2"/>
+      <node ref="R7" pin="2"/>
+      <node ref="D46" pin="2"/>
+    </net>
+    <net code="20" name="Net-(D17-Pad2)">
+      <node ref="D67" pin="2"/>
+      <node ref="D77" pin="2"/>
+      <node ref="D27" pin="2"/>
+      <node ref="D17" pin="2"/>
+      <node ref="D57" pin="2"/>
+      <node ref="D37" pin="2"/>
+      <node ref="D7" pin="2"/>
+      <node ref="D47" pin="2"/>
       <node ref="R8" pin="2"/>
     </net>
     <net code="21" name="C0">
@@ -1250,15 +1179,15 @@
       <node ref="Q5" pin="1"/>
       <node ref="U1" pin="10"/>
     </net>
-    <net code="30" name="Net-(D16-Pad1)">
-      <node ref="D8" pin="1"/>
-      <node ref="D32" pin="1"/>
-      <node ref="D24" pin="1"/>
-      <node ref="D16" pin="1"/>
-      <node ref="D48" pin="1"/>
-      <node ref="D40" pin="1"/>
-      <node ref="D56" pin="1"/>
-      <node ref="D64" pin="1"/>
+    <net code="30" name="Net-(D70-Pad1)">
+      <node ref="D70" pin="1"/>
+      <node ref="D73" pin="1"/>
+      <node ref="D72" pin="1"/>
+      <node ref="D71" pin="1"/>
+      <node ref="D75" pin="1"/>
+      <node ref="D74" pin="1"/>
+      <node ref="D76" pin="1"/>
+      <node ref="D77" pin="1"/>
       <node ref="Q8" pin="3"/>
     </net>
     <net code="31" name="R7">
@@ -1273,43 +1202,43 @@
       <node ref="U1" pin="11"/>
       <node ref="Q4" pin="1"/>
     </net>
-    <net code="34" name="Net-(D12-Pad1)">
-      <node ref="D60" pin="1"/>
+    <net code="34" name="Net-(D30-Pad1)">
+      <node ref="D37" pin="1"/>
+      <node ref="D34" pin="1"/>
+      <node ref="D35" pin="1"/>
       <node ref="D36" pin="1"/>
-      <node ref="D44" pin="1"/>
-      <node ref="D52" pin="1"/>
-      <node ref="D4" pin="1"/>
-      <node ref="D20" pin="1"/>
-      <node ref="D12" pin="1"/>
-      <node ref="D28" pin="1"/>
+      <node ref="D30" pin="1"/>
+      <node ref="D32" pin="1"/>
+      <node ref="D31" pin="1"/>
+      <node ref="D33" pin="1"/>
       <node ref="Q4" pin="3"/>
     </net>
-    <net code="35" name="Net-(D13-Pad1)">
-      <node ref="D53" pin="1"/>
-      <node ref="D37" pin="1"/>
-      <node ref="D29" pin="1"/>
-      <node ref="D21" pin="1"/>
-      <node ref="D13" pin="1"/>
-      <node ref="D5" pin="1"/>
+    <net code="35" name="Net-(D40-Pad1)">
+      <node ref="D46" pin="1"/>
+      <node ref="D44" pin="1"/>
+      <node ref="D43" pin="1"/>
+      <node ref="D42" pin="1"/>
+      <node ref="D41" pin="1"/>
+      <node ref="D40" pin="1"/>
       <node ref="D45" pin="1"/>
       <node ref="Q5" pin="3"/>
-      <node ref="D61" pin="1"/>
+      <node ref="D47" pin="1"/>
     </net>
     <net code="36" name="Net-(C1-Pad1)">
       <node ref="J1" pin="1"/>
       <node ref="C1" pin="1"/>
       <node ref="R9" pin="2"/>
     </net>
-    <net code="37" name="Net-(D1-Pad2)">
-      <node ref="D1" pin="2"/>
-      <node ref="D4" pin="2"/>
+    <net code="37" name="Net-(D0-Pad2)">
+      <node ref="D0" pin="2"/>
+      <node ref="D30" pin="2"/>
       <node ref="R1" pin="2"/>
-      <node ref="D6" pin="2"/>
-      <node ref="D2" pin="2"/>
-      <node ref="D8" pin="2"/>
-      <node ref="D3" pin="2"/>
-      <node ref="D5" pin="2"/>
-      <node ref="D7" pin="2"/>
+      <node ref="D50" pin="2"/>
+      <node ref="D10" pin="2"/>
+      <node ref="D70" pin="2"/>
+      <node ref="D20" pin="2"/>
+      <node ref="D40" pin="2"/>
+      <node ref="D60" pin="2"/>
     </net>
     <net code="38" name="Net-(U1-Pad18)">
       <node ref="U1" pin="18"/>
@@ -1337,7 +1266,7 @@
       <node ref="R10" pin="2"/>
       <node ref="U1" pin="29"/>
       <node ref="J2" pin="5"/>
-      <node ref="D65" pin="2"/>
+      <node ref="D88" pin="2"/>
     </net>
     <net code="46" name="Net-(J3-Pad2)">
       <node ref="J3" pin="2"/>
