@@ -9,16 +9,25 @@
  * 
  * 
  */
+#include<avr/interrupt.h>
+#include <avr/io.h>
 
-
-void setup() {
-  initScanning() {
-    
-  }
-
+void setup() 
+{
+  Serial.begin(115200);
+  Serial.println("Start");
+  initScanning();
 }
 
-void loop() {
-  // put your main code here, to run repeatedly:
-
+void loop()
+{
+  //Demo 1
+  for(uint8_t i=0; i < 8; i++) {
+    for(uint8_t j=0; j < 8; j++){
+      if(getPixel(j,i)) {
+        clearPixel(j,i);
+      } else {setPixel(j,i);}
+      delay(50);
+    }
+  }
 }
