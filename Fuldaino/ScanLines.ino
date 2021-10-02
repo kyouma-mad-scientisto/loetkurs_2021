@@ -1,7 +1,3 @@
-/*
- * Displayaktualisierung
- * alle 5ms ~ 200Hz
- */
 #define C0 PORTB |= (0x01 << 3)
 #define C1 PORTB |= (0x01 << 4)
 #define C2 PORTB |= (0x01 << 5)
@@ -38,9 +34,13 @@
 #define R6c PORTB &= ~(0x01 << 7)
 #define R7c PORTB &= ~(0x01 << 6)
 
+/*
+ * Displayaktualisierung
+ * alle 8ms = 125Hz
+ */
 
-#define TIMER_INTERVAL_MS  10
-const uint16_t TIMER1_COUNT = TIMER_INTERVAL_MS / ((float)1 / 8000 * 1024) / 8;
+#define TIMER_INTERVAL_MS  1  //* 8 = 8ms
+const uint16_t TIMER1_COUNT = TIMER_INTERVAL_MS / ((float)1 / 8000 * 256) / 8;
 
 const uint8_t FRAMEBUFFER_SIZE = 8;
 volatile static uint8_t framebuffer[FRAMEBUFFER_SIZE];
@@ -71,7 +71,6 @@ void setOutputs(uint8_t lineOutput, uint8_t columns) {
 //zuerst Zeilentreiber deaktivieren um Flackern/Artefakte zu vermeiden
   PORTB &= 00111000;
   PORTD &= 00011111;
-  __asm__("nop");
 
   if(columns & 1) {C0;} else {C0c;}
   if(columns & 2) {C1;} else {C1c;}
@@ -115,13 +114,15 @@ void changeFramebufferLine(char line, uint8_t lineNumber)
   framebuffer[lineNumber] = line;  
 }
 //setzt ein Pixel
-void setPixel(uint8_t x, uint8_t y) {
+void setPixel(uint8_t x, uint8_t y)
+{
   if((x < 8) || (y < 8)) {
     framebuffer[y] |= (0x01 << (x));
   }
 }
 //loescht ein Pixel
-void clearPixel(uint8_t x, uint8_t y) {
+void clearPixel(uint8_t x, uint8_t y)
+{
   if((x < 8) || (y < 8)) {
     framebuffer[y] &= ~(0x01 << (x));
   }
@@ -159,7 +160,7 @@ void initScanning() {
     
   TCCR1B |= (1 << WGM12); //enable timer1 CTC mode
     //1:1024
-  TCCR1B |= (1 << CS10) | (1 << CS12); //set prescaler bits
+  TCCR1B |= (1 << CS12); //set prescaler bits
     //enable timer
   TIMSK1 |= (1 << OCIE1A); //enable timer1 compare interrupt  
   interrupts();
