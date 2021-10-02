@@ -4,10 +4,12 @@
  * 8x8 LED Matrix
  * Atmega328p mit internem 8MHz Takt
  * 
- * benoetigt "Arduino on a Breadboard" Library
+ * benoetigt die "Breadboard Arduino" Library
+ * siehe dazu:
+ * https://github.com/oshlab/Breadboard-Arduino
  * 
  * 
- * 
+ * von Yves E.
  */
 #include<avr/interrupt.h>
 #include <avr/io.h>

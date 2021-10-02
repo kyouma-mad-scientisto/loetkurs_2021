@@ -19,11 +19,11 @@ bool scrollMessage()
 
   if((millis() - lastTime) >= scrollTimeout) {
     lastTime = millis();
-  //wenn msgPointer = 0, dann Window loeschen
+    //wenn msgPointer = 0, dann Window loeschen
     if(msgPointer == 0) {
       memset(scrollWindow, 0, 8);
     }
-  //scrolling
+    //scrolling
     for(uint8_t i=0; i<8; i++)
     {
       scrollWindow[i] = scrollWindow[i] >> 1; //fuer lesen von links nach rechts

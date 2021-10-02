@@ -151,7 +151,6 @@ void initScanning() {
   }
 //Timer1 konfigurieren
   noInterrupts();
-//reset a timer unit
   TCCR1A = 0; //set TCCRXA register to 0
   TCCR1B = 0; //set TCCRXB register to 0
   TCNT1 = 0; //reset counter value
@@ -159,9 +158,9 @@ void initScanning() {
   OCR1A = TIMER1_COUNT; //set compare match register of timer1
     
   TCCR1B |= (1 << WGM12); //enable timer1 CTC mode
-    //1:1024
+  //1:1024
   TCCR1B |= (1 << CS12); //set prescaler bits
-    //enable timer
+  //Timer einschalten
   TIMSK1 |= (1 << OCIE1A); //enable timer1 compare interrupt  
   interrupts();
 }
