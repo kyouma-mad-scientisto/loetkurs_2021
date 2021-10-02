@@ -101,6 +101,19 @@ void setOutputs(uint8_t lineOutput, uint8_t columns) {
   PORTB |= (11000111 & (((lineOutput & 11100000) >> 5) | ((lineOutput & 00000011) << 6)));
   PORTD |= (11100000 & ((lineOutput & 00011100) << 3)); */
 }
+//den kompletten Framebuffer ueberschreiben
+void changeFramebuffer(char* newBuffer)
+{
+  for(uint8_t i=0; i<8; i++)
+  {
+    framebuffer[i] = newBuffer[i];
+  }
+}
+//eine Zeile des Framebuffers aendern
+void changeFramebufferLine(char line, uint8_t lineNumber)
+{
+  framebuffer[lineNumber] = line;  
+}
 //setzt ein Pixel
 void setPixel(uint8_t x, uint8_t y) {
   if((x < 8) || (y < 8)) {
@@ -125,8 +138,6 @@ bool getPixel(uint8_t x, uint8_t y) {
 //setup
 void initScanning() {
   DDRB = 0xFF;
-//  DDRC |= 00011111;
-//  DDRD |= 11100000;
   DDRC = 0xFF;
   DDRD = 0xFF;
 //alle Ports loeschen
