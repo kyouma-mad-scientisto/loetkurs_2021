@@ -1,39 +1,3 @@
-#define C0 PORTB |= (0x01 << 3)
-#define C1 PORTB |= (0x01 << 4)
-#define C2 PORTB |= (0x01 << 5)
-#define C3 PORTC |= (0x01 << 0)
-#define C4 PORTC |= (0x01 << 1)
-#define C5 PORTC |= (0x01 << 2)
-#define C6 PORTC |= (0x01 << 3)
-#define C7 PORTC |= (0x01 << 4)
-
-#define R0 PORTB |= (0x01 << 2)
-#define R1 PORTB |= (0x01 << 1)
-#define R2 PORTB |= (0x01 << 0)
-#define R3 PORTD |= (0x01 << 7)
-#define R4 PORTD |= (0x01 << 6)
-#define R5 PORTD |= (0x01 << 5)
-#define R6 PORTB |= (0x01 << 7)
-#define R7 PORTB |= (0x01 << 6)
-
-#define C0c PORTB &= ~(0x01 << 3)
-#define C1c PORTB &= ~(0x01 << 4)
-#define C2c PORTB &= ~(0x01 << 5)
-#define C3c PORTC &= ~(0x01 << 0)
-#define C4c PORTC &= ~(0x01 << 1)
-#define C5c PORTC &= ~(0x01 << 2)
-#define C6c PORTC &= ~(0x01 << 3)
-#define C7c PORTC &= ~(0x01 << 4)
-
-#define R0c PORTB &= ~(0x01 << 2)
-#define R1c PORTB &= ~(0x01 << 1)
-#define R2c PORTB &= ~(0x01 << 0)
-#define R3c PORTD &= ~(0x01 << 7)
-#define R4c PORTD &= ~(0x01 << 6)
-#define R5c PORTD &= ~(0x01 << 5)
-#define R6c PORTB &= ~(0x01 << 7)
-#define R7c PORTB &= ~(0x01 << 6)
-
 /*
  * Displayaktualisierung
  * alle 8ms = 125Hz
@@ -69,36 +33,16 @@ void scanLines() {
 void setOutputs(uint8_t lineOutput, uint8_t columns) {
 //PinBelegung FuldAIno
 //zuerst Zeilentreiber deaktivieren um Flackern/Artefakte zu vermeiden
-  PORTB &= 00111000;
-  PORTD &= 00011111;
-
-  if(columns & 1) {C0;} else {C0c;}
-  if(columns & 2) {C1;} else {C1c;}
-  if(columns & 4) {C2;} else {C2c;}
-  if(columns & 8) {C3;} else {C3c;}
-  if(columns & 16) {C4;} else {C4c;}
-  if(columns & 32) {C5;} else {C5c;}
-  if(columns & 64) {C6;} else {C6c;}
-  if(columns & 128) {C7;} else {C7c;}
-  
-  if(lineOutput & 128) {R0;} else {R0c;}
-  if(lineOutput & 64) {R1;} else {R1c;}
-  if(lineOutput & 32) {R2;} else {R2c;}
-  if(lineOutput & 16) {R3;} else {R3c;}
-  if(lineOutput & 8) {R4;} else {R4c;}
-  if(lineOutput & 4) {R5;} else {R5c;}
-  if(lineOutput & 2) {R6;} else {R6c;}
-  if(lineOutput & 1) {R7;} else {R7c;}
-
-/*
+  PORTB &= 0b00111000;
+  PORTD &= 0b00011111;
   //nun die neue Zeile in den Spaltentreiber laden
-  PORTB &= 11000111;
-  PORTC &= 11100000;
-  PORTB |= (00111000 & ((columns & 00000111) << 3));
-  PORTC |= (00011111 & ((columns & 11111000) >> 3));
+  PORTB &= 0b11000111;
+  PORTC &= 0b11100000;
+  PORTB |= (0b00111000 & ((columns & 0b00000111) << 3));
+  PORTC |= (0b00011111 & ((columns & 0b11111000) >> 3));
   //zuletzt den Zeilentreiber wieder einschalten
-  PORTB |= (11000111 & (((lineOutput & 11100000) >> 5) | ((lineOutput & 00000011) << 6)));
-  PORTD |= (11100000 & ((lineOutput & 00011100) << 3)); */
+  PORTB |= (0b11000111 & (((lineOutput & 0b11100000) >> 5) | ((lineOutput & 0b00000011) << 6)));
+  PORTD |= (0b11100000 & ((lineOutput & 0b00011100) << 3)); 
 }
 //den kompletten Framebuffer ueberschreiben
 void changeFramebuffer(char* newBuffer)
@@ -139,8 +83,8 @@ bool getPixel(uint8_t x, uint8_t y) {
 //setup
 void initScanning() {
   DDRB = 0xFF;
-  DDRC = 0xFF;
-  DDRD = 0xFF;
+  DDRC = 0b00011111;
+  DDRD = 0b11100000;
 //alle Ports loeschen
   PORTB = 0;
   PORTC = 0;
