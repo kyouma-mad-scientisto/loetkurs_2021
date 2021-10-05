@@ -87,8 +87,8 @@ void initScanning() {
   DDRD = 0b11100000;
 //alle Ports loeschen
   PORTB = 0;
-  PORTC = 0;
-  PORTD = 0;
+  PORTC = 0b11100000;
+  PORTD = 0b00011111;
 //framebuffer loeschen
   for(uint8_t i = 0; i < FRAMEBUFFER_SIZE; i++){
     framebuffer[i] = 0;
