@@ -1,14 +1,55 @@
-Ref,Value,Footprint
-C1,100nF,Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder
-C2,100nF,Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder
-C3,47µF,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder
-D0-D77,LED,LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder
-D88,D,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder
-J1,Conn_01x05_Male,Yves_footprints:Arduino_Pro_Mini_Serial_Connector
-J2,AVR-ISP-6,Yves_footprints:AVR_ISP_6Pin_Connector
-J3,USB_B_Mini,Connector_USB:USB_Mini-B_Wuerth_65100516121_Horizontal
-Q1-Q8,AO3400A,Package_TO_SOT_SMD:SOT-23
-R1-R8,86R6,Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder
-R9,1k,Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder
-R10,10k,Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder
-U1,ATmega328P-AU,Package_QFP:TQFP-32_7x7mm_P0.8mm
+Ref,Value,Footprint,,Ref,Value,Footprint
+C1+C2,100nF,0402,,C1+C2,100nF,0402
+C3,47µF,0805,,C3,47µF,0805
+D0-D77,LED,0603,,D0-D77,LED,0603
+D88,Diode,0805,,D88,Diode,0805
+J1,,1x5 Stiftleiste,,J1,,1x5 Stiftleiste
+J2,,2x3 Stiftleiste,,J2,,2x3 Stiftleiste
+J3,,USB_B_Mini,,J3,,USB_B_Mini
+Q1-Q8,AO3400A,SOT-23,,Q1-Q8,AO3400A,SOT-23
+R1-R8,86R6,0402,,R1-R8,86R6,0402
+R9,1k,0402,,R9,1k,0402
+R10,10k,0402,,R10,10k,0402
+U1,ATmega328P-AU,TQFP,,U1,ATmega328P-AU,TQFP
+,,,,,,
+Ref,Value,Footprint,,Ref,Value,Footprint
+C1+C2,100nF,0402,,C1+C2,100nF,0402
+C3,47µF,0805,,C3,47µF,0805
+D0-D77,LED,0603,,D0-D77,LED,0603
+D88,Diode,0805,,D88,Diode,0805
+J1,,1x5 Stiftleiste,,J1,,1x5 Stiftleiste
+J2,,2x3 Stiftleiste,,J2,,2x3 Stiftleiste
+J3,,USB_B_Mini,,J3,,USB_B_Mini
+Q1-Q8,AO3400A,SOT-23,,Q1-Q8,AO3400A,SOT-23
+R1-R8,86R6,0402,,R1-R8,86R6,0402
+R9,1k,0402,,R9,1k,0402
+R10,10k,0402,,R10,10k,0402
+U1,ATmega328P-AU,TQFP,,U1,ATmega328P-AU,TQFP
+,,,,,,
+Ref,Value,Footprint,,Ref,Value,Footprint
+C1+C2,100nF,0402,,C1+C2,100nF,0402
+C3,47µF,0805,,C3,47µF,0805
+D0-D77,LED,0603,,D0-D77,LED,0603
+D88,Diode,0805,,D88,Diode,0805
+J1,,1x5 Stiftleiste,,J1,,1x5 Stiftleiste
+J2,,2x3 Stiftleiste,,J2,,2x3 Stiftleiste
+J3,,USB_B_Mini,,J3,,USB_B_Mini
+Q1-Q8,AO3400A,SOT-23,,Q1-Q8,AO3400A,SOT-23
+R1-R8,86R6,0402,,R1-R8,86R6,0402
+R9,1k,0402,,R9,1k,0402
+R10,10k,0402,,R10,10k,0402
+U1,ATmega328P-AU,TQFP,,U1,ATmega328P-AU,TQFP
+,,,,,,
+Ref,Value,Footprint,,Ref,Value,Footprint
+C1+C2,100nF,0402,,C1+C2,100nF,0402
+C3,47µF,0805,,C3,47µF,0805
+D0-D77,LED,0603,,D0-D77,LED,0603
+D88,Diode,0805,,D88,Diode,0805
+J1,,1x5 Stiftleiste,,J1,,1x5 Stiftleiste
+J2,,2x3 Stiftleiste,,J2,,2x3 Stiftleiste
+J3,,USB_B_Mini,,J3,,USB_B_Mini
+Q1-Q8,AO3400A,SOT-23,,Q1-Q8,AO3400A,SOT-23
+R1-R8,86R6,0402,,R1-R8,86R6,0402
+R9,1k,0402,,R9,1k,0402
+R10,10k,0402,,R10,10k,0402
+U1,ATmega328P-AU,TQFP,,U1,ATmega328P-AU,TQFP
