@@ -2005,4 +2005,200 @@ Wire Wire Line
 	9450 1450 9250 1450
 Wire Wire Line
 	9250 1550 9450 1550
+$Comp
+L Device:Crystal Y1
+U 1 1 61A3846B
+P 4000 1550
+F 0 "Y1" H 4000 1818 50  0000 C CNN
+F 1 "Crystal" H 4000 1727 50  0000 C CNN
+F 2 "" H 4000 1550 50  0001 C CNN
+F 3 "~" H 4000 1550 50  0001 C CNN
+	1    4000 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R12
+U 1 1 61A3945A
+P 6600 1100
+F 0 "R12" H 6670 1146 50  0000 L CNN
+F 1 "1k" H 6670 1055 50  0000 L CNN
+F 2 "" V 6530 1100 50  0001 C CNN
+F 3 "~" H 6600 1100 50  0001 C CNN
+	1    6600 1100
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:R R11
+U 1 1 61A3A72D
+P 6600 1000
+F 0 "R11" H 6670 1046 50  0000 L CNN
+F 1 "1k" H 6670 955 50  0000 L CNN
+F 2 "" V 6530 1000 50  0001 C CNN
+F 3 "~" H 6600 1000 50  0001 C CNN
+	1    6600 1000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C6
+U 1 1 61A54ECF
+P 7100 800
+F 0 "C6" H 7215 846 50  0000 L CNN
+F 1 "100nF" H 7215 755 50  0000 L CNN
+F 2 "" H 7138 650 50  0001 C CNN
+F 3 "~" H 7100 800 50  0001 C CNN
+	1    7100 800 
+	1    0    0    -1  
+$EndComp
+Text GLabel 8750 1950 0    50   Input ~ 0
+Tx
+Text GLabel 8800 2150 2    50   Input ~ 0
+Rx
+Text GLabel 6750 1100 2    50   Input ~ 0
+Tx
+Text GLabel 6750 1000 2    50   Input ~ 0
+Rx
+Wire Wire Line
+	6450 1000 6400 1000
+Wire Wire Line
+	6450 1100 6400 1100
+$Comp
+L power:GND #PWR017
+U 1 1 61B4F11A
+P 6250 2600
+F 0 "#PWR017" H 6250 2350 50  0001 C CNN
+F 1 "GND" H 6255 2427 50  0000 C CNN
+F 2 "" H 6250 2600 50  0001 C CNN
+F 3 "" H 6250 2600 50  0001 C CNN
+	1    6250 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6000 2500 6250 2500
+Wire Wire Line
+	6250 2500 6250 2600
+$Comp
+L power:GND #PWR018
+U 1 1 61B891A1
+P 7350 1100
+F 0 "#PWR018" H 7350 850 50  0001 C CNN
+F 1 "GND" H 7355 927 50  0000 C CNN
+F 2 "" H 7350 1100 50  0001 C CNN
+F 3 "" H 7350 1100 50  0001 C CNN
+	1    7350 1100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7100 650  6000 650 
+Wire Wire Line
+	6000 650  6000 800 
+Wire Wire Line
+	7700 2000 6600 2000
+Wire Wire Line
+	6600 2000 6600 1700
+Wire Wire Line
+	6600 1700 6400 1700
+Connection ~ 7700 2000
+Text GLabel 10050 5050 0    50   Input ~ 0
+D+
+Text GLabel 10050 5150 0    50   Input ~ 0
+D-
+Text GLabel 5600 1300 0    50   Input ~ 0
+D+
+Text GLabel 5600 1400 0    50   Input ~ 0
+D-
+$Comp
+L Device:C C7
+U 1 1 61BE0D20
+P 7600 800
+F 0 "C7" H 7715 846 50  0000 L CNN
+F 1 "100nF" H 7715 755 50  0000 L CNN
+F 2 "" H 7638 650 50  0001 C CNN
+F 3 "~" H 7600 800 50  0001 C CNN
+	1    7600 800 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5900 800  5900 600 
+Wire Wire Line
+	5900 600  7600 600 
+Wire Wire Line
+	7600 600  7600 650 
+Wire Wire Line
+	7600 950  7350 950 
+Wire Wire Line
+	7350 950  7350 1100
+Wire Wire Line
+	7350 950  7100 950 
+Connection ~ 7350 950 
+$Comp
+L Device:C C5
+U 1 1 61C714C3
+P 4300 1700
+F 0 "C5" H 4415 1746 50  0000 L CNN
+F 1 "22pF" H 4415 1655 50  0000 L CNN
+F 2 "" H 4338 1550 50  0001 C CNN
+F 3 "~" H 4300 1700 50  0001 C CNN
+	1    4300 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C4
+U 1 1 61C906F4
+P 3700 1700
+F 0 "C4" H 3815 1746 50  0000 L CNN
+F 1 "22pF" H 3815 1655 50  0000 L CNN
+F 2 "" H 3738 1550 50  0001 C CNN
+F 3 "~" H 3700 1700 50  0001 C CNN
+	1    3700 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Interface_USB:CH340T U2
+U 1 1 61A35E01
+P 6000 1700
+F 0 "U2" H 6000 811 50  0000 C CNN
+F 1 "CH340T" H 6000 720 50  0000 C CNN
+F 2 "Package_SO:SSOP-20_5.3x7.2mm_P0.65mm" H 6900 900 50  0001 C CNN
+F 3 "https://cdn.sparkfun.com/datasheets/Dev/Arduino/Other/CH340DS1.PDF" H 5750 2550 50  0001 C CNN
+	1    6000 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR016
+U 1 1 61D767DE
+P 4000 1950
+F 0 "#PWR016" H 4000 1700 50  0001 C CNN
+F 1 "GND" H 4005 1777 50  0000 C CNN
+F 2 "" H 4000 1950 50  0001 C CNN
+F 3 "" H 4000 1950 50  0001 C CNN
+	1    4000 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 1950 4000 1850
+Wire Wire Line
+	4000 1850 3700 1850
+Wire Wire Line
+	4300 1850 4000 1850
+Connection ~ 4000 1850
+Wire Wire Line
+	4150 1550 4300 1550
+Wire Wire Line
+	4900 1550 4900 1800
+Wire Wire Line
+	4900 1800 5600 1800
+Connection ~ 4300 1550
+Wire Wire Line
+	4300 1550 4900 1550
+Wire Wire Line
+	3700 1550 3850 1550
+Wire Wire Line
+	3700 1550 3700 1150
+Wire Wire Line
+	3700 1150 5000 1150
+Wire Wire Line
+	5000 1150 5000 1600
+Wire Wire Line
+	5000 1600 5600 1600
+Connection ~ 3700 1550
 $EndSCHEMATC
