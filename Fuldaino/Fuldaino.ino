@@ -16,7 +16,7 @@
 #include <util/delay.h>
 #include <avr/pgmspace.h>
 
-const char testText[] = {"FuldAIno Loetkurs 2021  "};
+const char testText[] = {"FuldAIno Loetkurs 2022  "};
 
 void setup() 
 {

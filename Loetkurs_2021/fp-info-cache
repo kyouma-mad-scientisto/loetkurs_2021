@@ -1,4 +1,4 @@
-292862593983738
+296929037484556
 Crystal
 Crystal_AT310_D3.0mm_L10.0mm_Horizontal
 Crystal THT AT310 10.0mm-10.5mm length 3.0mm diameter http://www.cinetech.com.tw/upload/2011/04/20110401165201.pdf
@@ -1141,6 +1141,34 @@ THT ceramic resonator filter
 3
 3
 Crystal
+Resonator_Murata_CSTLSxxxG-3Pin_W8.0mm_H3.0mm
+Ceramic Resomator/Filter Murata CSTLSxxxG, http://www.murata.com/~/media/webrenewal/support/library/catalog/products/timingdevice/ceralock/p17e.ashx, length*width=8.0x3.0mm^2 package, package length=8.0mm, package width=3.0mm, 3 pins
+THT ceramic resonator filter CSTLSxxxG
+0
+3
+3
+Crystal
+Resonator_Murata_CSTLSxxxX-3Pin_W5.5mm_H3.0mm
+Ceramic Resomator/Filter Murata CSTLSxxxX, http://www.murata.com/~/media/webrenewal/support/library/catalog/products/timingdevice/ceralock/p17e.ashx, length*width=5.5x3.0mm^2 package, package length=5.5mm, package width=3.0mm, 3 pins
+THT ceramic resonator filter CSTLSxxxX
+0
+3
+3
+Crystal
+Resonator_Murata_DSN6-3Pin_W7.0mm_H2.5mm
+Ceramic Resomator/Filter Murata DSN6, http://cdn-reichelt.de/documents/datenblatt/B400/DSN6NC51H.pdf, length*width=7.0x2.5mm^2 package, package length=7.0mm, package width=2.5mm, 3 pins
+THT ceramic resonator filter DSN6
+0
+3
+3
+Crystal
+Resonator_Murata_DSS6-3Pin_W7.0mm_H2.5mm
+Ceramic Resomator/Filter Murata DSS6, http://cdn-reichelt.de/documents/datenblatt/B400/DSN6NC51H.pdf, length*width=7.0x2.5mm^2 package, package length=7.0mm, package width=2.5mm, 3 pins
+THT ceramic resonator filter DSS6
+0
+3
+3
+Crystal
 Resonator_SMD-3Pin_7.2x3.0mm
 SMD Resomator/Filter 7.2x3.0mm, Murata CSTCC8M00G53-R0; 8MHz resonator, SMD, Farnell (Element 14) #1170435, http://www.farnell.com/datasheets/19296.pdf?_ga=1.247244932.122297557.1475167906, 7.2x3.0mm^2 package
 SMD SMT ceramic resonator filter filter
@@ -1155,100 +1183,72 @@ SMD SMT ceramic resonator filter filter hand-soldering
 3
 3
 Crystal
-Resonator_SMD_muRata_CDSCB-2Pin_4.5x2.0mm
+Resonator_SMD_Murata_CDSCB-2Pin_4.5x2.0mm
 SMD Resomator/Filter Murata CDSCB, http://cdn-reichelt.de/documents/datenblatt/B400/SFECV-107.pdf, 4.5x2.0mm^2 package
 SMD SMT ceramic resonator filter filter
 0
 2
 2
 Crystal
-Resonator_SMD_muRata_CDSCB-2Pin_4.5x2.0mm_HandSoldering
+Resonator_SMD_Murata_CDSCB-2Pin_4.5x2.0mm_HandSoldering
 SMD Resomator/Filter Murata CDSCB, http://cdn-reichelt.de/documents/datenblatt/B400/SFECV-107.pdf, hand-soldering, 4.5x2.0mm^2 package
 SMD SMT ceramic resonator filter filter hand-soldering
 0
 2
 2
 Crystal
-Resonator_SMD_muRata_CSTxExxV-3Pin_3.0x1.1mm
+Resonator_SMD_Murata_CSTxExxV-3Pin_3.0x1.1mm
 SMD Resomator/Filter Murata CSTCE, https://www.murata.com/en-eu/products/productdata/8801162264606/SPEC-CSTNE16M0VH3C000R0.pdf
 SMD SMT ceramic resonator filter
 0
 3
 3
 Crystal
-Resonator_SMD_muRata_CSTxExxV-3Pin_3.0x1.1mm_HandSoldering
+Resonator_SMD_Murata_CSTxExxV-3Pin_3.0x1.1mm_HandSoldering
 SMD Resomator/Filter Murata CSTCE, https://www.murata.com/en-eu/products/productdata/8801162264606/SPEC-CSTNE16M0VH3C000R0.pdf
 SMD SMT ceramic resonator filter
 0
 3
 3
 Crystal
-Resonator_SMD_muRata_SFECV-3Pin_6.9x2.9mm
+Resonator_SMD_Murata_SFECV-3Pin_6.9x2.9mm
 SMD Resomator/Filter Murata SFECV, http://cdn-reichelt.de/documents/datenblatt/B400/SFECV-107.pdf, 6.9x2.9mm^2 package
 SMD SMT ceramic resonator filter filter
 0
 3
 3
 Crystal
-Resonator_SMD_muRata_SFECV-3Pin_6.9x2.9mm_HandSoldering
+Resonator_SMD_Murata_SFECV-3Pin_6.9x2.9mm_HandSoldering
 SMD Resomator/Filter Murata SFECV, http://cdn-reichelt.de/documents/datenblatt/B400/SFECV-107.pdf, hand-soldering, 6.9x2.9mm^2 package
 SMD SMT ceramic resonator filter filter hand-soldering
 0
 3
 3
 Crystal
-Resonator_SMD_muRata_SFSKA-3Pin_7.9x3.8mm
+Resonator_SMD_Murata_SFSKA-3Pin_7.9x3.8mm
 SMD Resomator/Filter Murata SFSKA, http://cdn-reichelt.de/documents/datenblatt/B400/SFECV-107.pdf, 7.9x3.8mm^2 package
 SMD SMT ceramic resonator filter filter
 0
 3
 3
 Crystal
-Resonator_SMD_muRata_SFSKA-3Pin_7.9x3.8mm_HandSoldering
+Resonator_SMD_Murata_SFSKA-3Pin_7.9x3.8mm_HandSoldering
 SMD Resomator/Filter Murata SFSKA, http://cdn-reichelt.de/documents/datenblatt/B400/SFECV-107.pdf, hand-soldering, 7.9x3.8mm^2 package
 SMD SMT ceramic resonator filter filter hand-soldering
 0
 3
 3
 Crystal
-Resonator_SMD_muRata_TPSKA-3Pin_7.9x3.8mm
+Resonator_SMD_Murata_TPSKA-3Pin_7.9x3.8mm
 SMD Resomator/Filter Murata TPSKA, http://cdn-reichelt.de/documents/datenblatt/B400/SFECV-107.pdf, 7.9x3.8mm^2 package
 SMD SMT ceramic resonator filter filter
 0
 3
 3
 Crystal
-Resonator_SMD_muRata_TPSKA-3Pin_7.9x3.8mm_HandSoldering
+Resonator_SMD_Murata_TPSKA-3Pin_7.9x3.8mm_HandSoldering
 SMD Resomator/Filter Murata TPSKA, http://cdn-reichelt.de/documents/datenblatt/B400/SFECV-107.pdf, hand-soldering, 7.9x3.8mm^2 package
 SMD SMT ceramic resonator filter filter hand-soldering
-0
-3
-3
-Crystal
-Resonator_muRata_CSTLSxxxG-3Pin_W8.0mm_H3.0mm
-Ceramic Resomator/Filter Murata CSTLSxxxG, http://www.murata.com/~/media/webrenewal/support/library/catalog/products/timingdevice/ceralock/p17e.ashx, length*width=8.0x3.0mm^2 package, package length=8.0mm, package width=3.0mm, 3 pins
-THT ceramic resonator filter CSTLSxxxG
-0
-3
-3
-Crystal
-Resonator_muRata_CSTLSxxxX-3Pin_W5.5mm_H3.0mm
-Ceramic Resomator/Filter Murata CSTLSxxxX, http://www.murata.com/~/media/webrenewal/support/library/catalog/products/timingdevice/ceralock/p17e.ashx, length*width=5.5x3.0mm^2 package, package length=5.5mm, package width=3.0mm, 3 pins
-THT ceramic resonator filter CSTLSxxxX
-0
-3
-3
-Crystal
-Resonator_muRata_DSN6-3Pin_W7.0mm_H2.5mm
-Ceramic Resomator/Filter Murata DSN6, http://cdn-reichelt.de/documents/datenblatt/B400/DSN6NC51H.pdf, length*width=7.0x2.5mm^2 package, package length=7.0mm, package width=2.5mm, 3 pins
-THT ceramic resonator filter DSN6
-0
-3
-3
-Crystal
-Resonator_muRata_DSS6-3Pin_W7.0mm_H2.5mm
-Ceramic Resomator/Filter Murata DSS6, http://cdn-reichelt.de/documents/datenblatt/B400/DSN6NC51H.pdf, length*width=7.0x2.5mm^2 package, package length=7.0mm, package width=2.5mm, 3 pins
-THT ceramic resonator filter DSS6
 0
 3
 3
