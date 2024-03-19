@@ -8,6 +8,7 @@ const uint16_t TIMER1_COUNT = TIMER_INTERVAL_MS / ((float)1 / 8000 * 256) / 8;
 
 const uint8_t FRAMEBUFFER_SIZE = 8;
 volatile static uint8_t framebuffer[FRAMEBUFFER_SIZE];
+volatile static bool inverted = false;
 
 //Timer1 ISR
 ISR(TIMER1_COMPA_vect)
@@ -30,19 +31,30 @@ void scanLines() {
 
   setOutputs(lineOutput, columns);
 }
-void setOutputs(uint8_t lineOutput, uint8_t columns) {
-//PinBelegung FuldAIno
-//zuerst Zeilentreiber deaktivieren um Flackern/Artefakte zu vermeiden
+void setOutputs(uint8_t lineOutput, uint8_t columns)
+{
+  //PinBelegung FuldAIno
+  //zuerst Zeilentreiber deaktivieren um Flackern/Artefakte zu vermeiden
   PORTB &= 0b00111000;
   PORTD &= 0b00011111;
-  //nun die neue Zeile in den Spaltentreiber laden
+  //nun den Spaltentreiber loeschen
   PORTB &= 0b11000111;
   PORTC &= 0b11100000;
-  PORTB |= (0b00111000 & ((columns & 0b00000111) << 3));
-  PORTC |= (0b00011111 & ((columns & 0b11111000) >> 3));
+  //wenn invertiert dann
+  if(inverted)
+  {
+    //nun die neue Zeile invertiert in den Spaltentreiber laden 
+    PORTB |= (0b00111000 & ((~columns & 0b00000111) << 3));
+    PORTC |= (0b00011111 & ((~columns & 0b11111000) >> 3));    
+  } else {
+    //nun die neue Zeile in den Spaltentreiber laden 
+    PORTB |= (0b00111000 & ((columns & 0b00000111) << 3));
+    PORTC |= (0b00011111 & ((columns & 0b11111000) >> 3));
+  }
   //zuletzt den Zeilentreiber wieder einschalten
   PORTB |= (0b11000111 & (((lineOutput & 0b11100000) >> 5) | ((lineOutput & 0b00000011) << 6)));
-  PORTD |= (0b11100000 & ((lineOutput & 0b00011100) << 3)); 
+  PORTD |= (0b11100000 & ((lineOutput & 0b00011100) << 3));
+
 }
 //den kompletten Framebuffer ueberschreiben
 void changeFramebuffer(char* newBuffer)
@@ -79,6 +91,19 @@ bool getPixel(uint8_t x, uint8_t y) {
     pixelState = (framebuffer[y] >> (x)) & 0x01;
   }
   return pixelState;
+}
+//komplettes Display loeschen
+void clearDisplay()
+{
+  for(uint8_t i=0; i<FRAMEBUFFER_SIZE; i++)
+  {
+    framebuffer[i] = 0;
+  }
+}
+//invertiert die Darstellung
+void invertDisplay(bool invert)
+{
+  inverted = invert;
 }
 //setup
 void initScanning() {
