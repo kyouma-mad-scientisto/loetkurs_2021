@@ -1,6 +1,12 @@
 Dieses kleine Badge habe ich 2021 für einen Lötkurs an meiner Hochschule entworfen. Damit sollten die Teilnehmer SMD löten üben. Am Ende konnten sie ihr Werk mit nach Hause nehmen und nach belieben programmieren.
 Anlässlich des Girl's Days habe ich später noch einen CH340 ergänzt, damit der Controller ohne extra Hardware programmiert werden kann, es wird nur noch ein Mini-USB Kabel benötigt.
 
+FuldAIno vorn<br />
+![FuldAIno_front]()
+
+FuldAIno hinten<br />
+![FuldAIno_back]()
+
 
 
 IM WEITEREN FOLGT DIE ORIGINALE README.md
