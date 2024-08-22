@@ -2,10 +2,10 @@ Dieses kleine Badge habe ich 2021 für einen Lötkurs an meiner Hochschule entwo
 Anlässlich des Girl's Days habe ich später noch einen CH340 ergänzt, damit der Controller ohne extra Hardware programmiert werden kann, es wird nur noch ein Mini-USB Kabel benötigt.
 
 FuldAIno vorn<br />
-![FuldAIno_front]()
+![FuldAIno_front](https://github.com/kyouma-mad-scientisto/loetkurs_2021/blob/main/FuldAIno_CH340_front.jpg)
 
 FuldAIno hinten<br />
-![FuldAIno_back]()
+![FuldAIno_back](https://github.com/kyouma-mad-scientisto/loetkurs_2021/blob/main/FuldAIno_CH340_back.jpg)
 
 
 
